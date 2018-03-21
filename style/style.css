@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	 box-sizing: border-box;
+	 /*border: 1px solid red;*/
+}
+body {
+	background-color: #55ACEE;
+}
+
+main {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	margin: 100px;
+}
+
+h1, h2, h3 {
+	margin: 30px;
+}
+
+.box {
+	margin-bottom: 100px;
+}
+.trigger, .tweet {
+	background-color: #55ACEE;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 300px;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	transition: 0.6s;
+	padding: 0;
+}
+
+.fa-twitter {
+	color: white;
+	font-size: 18px;
+	height: 18px;
+}
+
+.trigger:hover, .tweet:hover {
+	background-color: rgba(0,0,0,0.5);
+}
